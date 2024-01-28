@@ -8,4 +8,4 @@
 - [Hair Materials]()
 - [Core Crystal Materials]()
 
-[Tools]()
+[Resources](./resources.md)
