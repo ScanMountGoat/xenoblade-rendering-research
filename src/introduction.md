@@ -1,5 +1,7 @@
 # Introduction
 This site covers rendering related topics for the Xenoblade Chronicles Switch games.
-This includes Xenoblade Chronicles 1 Definitive Edition, Xenoblade Chronicles 2, and Xenoblade Chronicles 3.
+This includes Xenoblade Chronicles 1 Definitive Edition, Xenoblade Chronicles 2, and Xenoblade Chronicles 3. 
 
-If you encounter any errors with this site or want to request new information, please open an [issue](https://github.com/ScanMountGoat/xenoblade-rendering-research/issues). Contributions are made by opening a pull request on the github repository linked above.
+The various pages provide a high level overview of important rendering techniques found in game. The goal is to provide enough information to suitably approximate these techniques in other applications and make informed decisions for modding. Some pages may briefly mention implementation details if they have important implications for what effects are possible with modding. No graphics programming experience is necessary, but some familiarity with graphics terminology like "texture" or "shader" is assumed. For specific implementation details reverse engineered from in game, see the source code for [xc3_wgpu](https://github.com/ScanMountGoat/xc3_lib/tree/main/xc3_wgpu).
+
+If you encounter any issues using or understanding the information on this site or want to request new information, please open an [issue](https://github.com/ScanMountGoat/xenoblade-rendering-research/issues). Contributions can be made by opening a pull request on [xenoblade-rendering-research](https://github.com/ScanMountGoat/xenoblade-rendering-research).
