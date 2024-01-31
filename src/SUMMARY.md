@@ -1,11 +1,16 @@
 # Summary
 [Introduction](./introduction.md)
-- [Shape Keys]()
-- [Deferred Rendering and PBR]()
-- [Material IDs]()
+
+# Rendering
+- [Deferred Rendering](./deferred.md)
+    - [GBuffer](./gbuffer.md)
+    - [Material Types](./material_types.md)
 - [Eye Materials]()
-- [Outlines]()
 - [Hair Materials]()
 - [Core Crystal Materials]()
+- [Outlines]()
+
+# Animation
+- [Shape Keys]()
 
 [Resources](./resources.md)
