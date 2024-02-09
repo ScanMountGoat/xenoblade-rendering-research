@@ -5,6 +5,8 @@
 - [Deferred Rendering](./deferred.md)
     - [GBuffer](./gbuffer.md)
     - [Material Types](./material_types.md)
+- [Textures](./textures.md)
+- [Vertex Attributes]()
 - [Eye Materials]()
 - [Hair Materials]()
 - [Core Crystal Materials]()
