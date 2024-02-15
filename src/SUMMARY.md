@@ -8,7 +8,7 @@
 - [Textures](./textures.md)
 - [Vertex Attributes]()
 - [Eye Materials]()
-- [Hair Materials]()
+- [Hair Materials](./hair.md)
 - [Core Crystal Materials]()
 - [Outlines]()
 

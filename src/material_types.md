@@ -6,8 +6,12 @@ Each model specific shader writes a hardcoded value to the EtcBuffer G-Buffer te
 Type 1 materials use standard PBR lighting and shading. 
 
 ## Type 2 (Toon)
-Type 2 materials use a color gradient for diffuse and specular shading. Gradients are defined globally for all models in files like `monolib/shader/toon_grad.witex`. Each row of the gradient texture defines a unique RGB gradient ramp. Each model specific shader writes a value to the EtcBuffer G-Buffer texture to determine which gradient to use for rendering.
+Type 2 materials use a color gradient for diffuse shading. Gradients are defined globally for all models in files like `monolib/shader/toon_grad.witex`. Each row of the gradient texture defines a unique RGB gradient ramp. Each model specific shader writes a value to the EtcBuffer G-Buffer texture to determine which gradient to use for rendering. 
+
+Toon shaders can also have specular shading colored by the specular output of the G-Buffer. This technique is common in Xenoblade 2 for character models.
 
 ## Type 3
 ## Type 4
+
 ## Type 5 (Hair)
+Xenoblade 3 defines a new material type used for hair with custom shading and a special blur filter a stylized appearance. See [hair](/.hair.md) for details.
