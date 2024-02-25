@@ -10,7 +10,7 @@
 - [Eye Materials]()
 - [Hair Materials](./hair.md)
 - [Core Crystal Materials]()
-- [Outlines]()
+- [Outlines](./outline.md)
 
 # Animation
 - [Shape Keys]()
