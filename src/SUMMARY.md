@@ -10,6 +10,7 @@
 - [Eye Materials]()
 - [Hair Materials](./hair.md)
 - [Core Crystal Materials]()
+- [Fur Materials]()
 - [Outlines](./outline.md)
 
 # Animation
