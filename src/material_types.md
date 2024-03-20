@@ -14,4 +14,4 @@ Toon shaders can also have specular shading colored by the specular output of th
 ## Type 4
 
 ## Type 5 (Hair)
-Xenoblade 3 defines a new material type used for hair with custom shading and a special blur filter a stylized appearance. See [hair](/.hair.md) for details.
+Xenoblade 3 defines a new material type used for hair with custom shading and a special blur filter a stylized appearance. See [hair](./hair.md) for details.
