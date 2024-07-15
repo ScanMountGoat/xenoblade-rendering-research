@@ -25,7 +25,17 @@ The glossiness of a material is the inverse of roughness and affects the size an
 ### Material ID (Blue)
 
 ### Bit Info (Alpha)
-The bit info contains multiple values like the material type. The material type is used to select the appropriate shader for the final deferred lighting pass like toon or PBR. The material type or "matType" is also referred to as "matID" in game code. In this site, "material type" will always refer to the value used to select the lighting shader and "material ID" will always refer to the value written to the etc blue channel to avoid any confusion.
+The bit info stores a 32-bit unsigned integer flags as `(float(flags) + 0.1) / 255.0`. 
+
+| Flag | Mask | Description |
+| --- | --- | --- |
+| matId | 0x3 | Determines material type like PBR or toon. |
+| bSSR | 0x8 | |
+| bSpecularCol | 0x10 | Enables the specular color texture input |
+| bMatFlag | 0x20 | |
+| bHatchingFlag | 0x30 | |
+
+The material type or "matType" is also referred to as "matID" in game code. In this site, "material type" will always refer to the value used to select the lighting shader and "material ID" will always refer to the value written to the etc blue channel to avoid any confusion.
 
 ## Normal
 ![GBuffer Normal](images/gbuffer/normal.jpg)
