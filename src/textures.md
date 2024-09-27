@@ -15,3 +15,4 @@ Some common texture types and naming conventions are summarized below. These nam
 | Specular | Specular color for toon materials | _SPM, _SPC, _MTL |
 | Emission | Shadeless color that doesn't actually emit light | _GLO |
 | Mask | Single channel mask for alpha or texture blending | _MSK, _ALP, _A |
+| Reflection | Intensity map for spherical map reflections | _RFM |
