@@ -9,3 +9,4 @@ title = "Xenoblade Rendering Research"
 git-repository-url = "https://github.com/ScanMountGoat/xenoblade-rendering-research"
 additional-css = ["image-compare/image-compare-viewer.min.css"]
 additional-js = ["image-compare/image-compare-viewer.min.js", "image-compare/setup.js"]
+no-section-label = true
