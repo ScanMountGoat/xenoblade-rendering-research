@@ -8,6 +8,7 @@
 - [Textures](./textures.md)
 - [Vertex Attributes]()
 - [Eye Materials]()
+- [Toon Materials](./toon.md)
 - [Hair Materials](./hair.md)
 - [Core Crystal Materials]()
 - [Fur Materials](./fur.md)
